@@ -1,0 +1,1157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0883074DEB508458C174DE306B480284 /* AlicloudUTDID */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 63C6D62F70EA6903E4C2E02077CF24FF /* Build configuration list for PBXAggregateTarget "AlicloudUTDID" */;
+			buildPhases = (
+				FE725BDC2D26E176307DCF3C5F9B9AB1 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AlicloudUTDID;
+		};
+		13791AD9C62C83C5D170A59C59B6B78E /* AlicloudSender */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1C2F5CC0D745EAABEDE125049FF9F691 /* Build configuration list for PBXAggregateTarget "AlicloudSender" */;
+			buildPhases = (
+			);
+			dependencies = (
+				27F03F0EA875C9F50AC53DE532127230 /* PBXTargetDependency */,
+				41BF72ECB7652B7FE7B600F93FF61CDC /* PBXTargetDependency */,
+			);
+			name = AlicloudSender;
+		};
+		C508EB37C9C701BDBDF2992EE93AA08C /* AlicloudPush */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C31F788704E6D392B2AC03420BB932C8 /* Build configuration list for PBXAggregateTarget "AlicloudPush" */;
+			buildPhases = (
+			);
+			dependencies = (
+				82D36EEACC5D1C716DBEF268D2C4A5C4 /* PBXTargetDependency */,
+				1F3D6592C72DD39BB01DC237F45E1A44 /* PBXTargetDependency */,
+				57ED58DAEC962D1077D2DE73B596EE1D /* PBXTargetDependency */,
+			);
+			name = AlicloudPush;
+		};
+		DD99D8E362F7950F06AD0A963460E834 /* AlicloudUtils */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7ED15CFBFAEFDC567122406E6D5F85FC /* Build configuration list for PBXAggregateTarget "AlicloudUtils" */;
+			buildPhases = (
+				BC6BEFBDB711E9B96749CECAD54C93FA /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				7AE9F48B9A1D7FF4927E12DEF1DC7318 /* PBXTargetDependency */,
+			);
+			name = AlicloudUtils;
+		};
+		E0A435AB383E08E63305BC6FEE435298 /* EMASRest */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3D83E7ED1CB539D8EF682A786FFD1C35 /* Build configuration list for PBXAggregateTarget "EMASRest" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = EMASRest;
+		};
+		E9E6A901E448660EFF3445A118182C28 /* AlicloudUT */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7A1C233E9527C0510979D5E8F9F78382 /* Build configuration list for PBXAggregateTarget "AlicloudUT" */;
+			buildPhases = (
+			);
+			dependencies = (
+				FB4EA72AA303225135E5FEE3095AC249 /* PBXTargetDependency */,
+			);
+			name = AlicloudUT;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6769C2F8E9F6D15D4E1E010C07C90092 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		86688BEF4900289B1496AE0A040A3B09 /* Pods-CZDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB27B8664F15D4AFD44417B3DB570E /* Pods-CZDemo-dummy.m */; };
+		C1E994F28CF3029E265FDD7BBFE14F45 /* Pods-CZDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AB93F3FFEB46085886F61249BBAF2C /* Pods-CZDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05F2DF19D96C3054F9E0CD4E3FDCD233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0883074DEB508458C174DE306B480284;
+			remoteInfo = AlicloudUTDID;
+		};
+		069A8F82026A57A570AE7F2FF8D6D713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0883074DEB508458C174DE306B480284;
+			remoteInfo = AlicloudUTDID;
+		};
+		1C0D38A9560BFB18A68186527EEF9D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13791AD9C62C83C5D170A59C59B6B78E;
+			remoteInfo = AlicloudSender;
+		};
+		3F384B7B6BB1FFEF7BBD9AB2059556A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A435AB383E08E63305BC6FEE435298;
+			remoteInfo = EMASRest;
+		};
+		53B85B083279295AFB03D71D363EFFF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD99D8E362F7950F06AD0A963460E834;
+			remoteInfo = AlicloudUtils;
+		};
+		7819CF492DEFB62CA69683F9B44B5B11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E6A901E448660EFF3445A118182C28;
+			remoteInfo = AlicloudUT;
+		};
+		798592275ED256D866475D0985E4B016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E6A901E448660EFF3445A118182C28;
+			remoteInfo = AlicloudUT;
+		};
+		7CAEBF72A121523BD85D6B7DB2AD9F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0883074DEB508458C174DE306B480284;
+			remoteInfo = AlicloudUTDID;
+		};
+		92A52F5BF22BBA185741C098BFC19A0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0883074DEB508458C174DE306B480284;
+			remoteInfo = AlicloudUTDID;
+		};
+		B788AA2FE2343D78F74B56BFB8156FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD99D8E362F7950F06AD0A963460E834;
+			remoteInfo = AlicloudUtils;
+		};
+		BD0C1EB49065AA6DF390E33D492EF40A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13791AD9C62C83C5D170A59C59B6B78E;
+			remoteInfo = AlicloudSender;
+		};
+		CB0AA697A53ACF62466FA43043186355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C508EB37C9C701BDBDF2992EE93AA08C;
+			remoteInfo = AlicloudPush;
+		};
+		D089A5546C779C311D53120D5C3F8B8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A435AB383E08E63305BC6FEE435298;
+			remoteInfo = EMASRest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0783A5D73AF19EC3477F92F195F28B51 /* Pods-CZDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CZDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0840B31D301A7A7B3088F1B1D22B20B3 /* AlicloudPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudPush.release.xcconfig; sourceTree = "<group>"; };
+		0BA97364EAC0D260D7EBE9940510C219 /* AlicloudSender.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudSender.framework; path = "emas-active/AlicloudSender.framework"; sourceTree = "<group>"; };
+		0CDB27B8664F15D4AFD44417B3DB570E /* Pods-CZDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CZDemo-dummy.m"; sourceTree = "<group>"; };
+		0D8398F8EF1EAC4172F74350D4B1369E /* AlicloudSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudSender.release.xcconfig; sourceTree = "<group>"; };
+		0DF5868998DA40EFA052D27FFEC8B180 /* AlicloudUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudUtils.release.xcconfig; sourceTree = "<group>"; };
+		226A815DB68F452028E1D870DE1846C8 /* AlicloudUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudUtils.debug.xcconfig; sourceTree = "<group>"; };
+		25AB93F3FFEB46085886F61249BBAF2C /* Pods-CZDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CZDemo-umbrella.h"; sourceTree = "<group>"; };
+		2D042AFF0321FE3CAC8ACEB6DC7BB542 /* AlicloudUTDID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudUTDID.debug.xcconfig; sourceTree = "<group>"; };
+		3450391711DCD40BF3E43A847D4E07D8 /* AlicloudSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudSender.debug.xcconfig; sourceTree = "<group>"; };
+		3D9BC2E59D4EE69B5CF0CEDF6240BFA1 /* EMASRest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EMASRest.framework; path = "emas-rest/EMASRest.framework"; sourceTree = "<group>"; };
+		5AEA294C8A65822A67853B2724709DDC /* Pods-CZDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CZDemo-Info.plist"; sourceTree = "<group>"; };
+		65FCD252C05BB901A679664919C6F891 /* Pods-CZDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CZDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		769C79C335CD15178B372772A4D2D96E /* EMASRest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMASRest.debug.xcconfig; sourceTree = "<group>"; };
+		7B587206FFB46C03616C6B6D8EC27565 /* AlicloudUtils-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AlicloudUtils-xcframeworks.sh"; sourceTree = "<group>"; };
+		92548AE4C6A8A6595CDCF20FAA286B20 /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = ut/UTMini.framework; sourceTree = "<group>"; };
+		93DAC18E1E5A81C5022C2F7EDD990778 /* AlicloudUtils.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AlicloudUtils.xcframework; path = utils/AlicloudUtils.xcframework; sourceTree = "<group>"; };
+		964394EB1BD7D75C222D5057DEACFA83 /* AlicloudUT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudUT.release.xcconfig; sourceTree = "<group>"; };
+		96AB6FB7821A0535DD1BD935A8DAFE29 /* AlicloudUT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudUT.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3F2DFE03A0DE74CDBFEED4F3E5573F8 /* Pods-CZDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CZDemo.modulemap"; sourceTree = "<group>"; };
+		B0A7C3626D88471C40F41CC5000E0507 /* EMASRest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMASRest.release.xcconfig; sourceTree = "<group>"; };
+		B5EBF704EA5C0956F1944ABA52A7DE76 /* AlicloudUTDID-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AlicloudUTDID-xcframeworks.sh"; sourceTree = "<group>"; };
+		B9C17DB9D81974B84B41949434DE3617 /* CloudPushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudPushSDK.framework; path = push/CloudPushSDK.framework; sourceTree = "<group>"; };
+		BADABFA4B9AE13A099ECD8E7BBC642CA /* UTDID.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UTDID.xcframework; path = utdid/UTDID.xcframework; sourceTree = "<group>"; };
+		BC1BC2E1947AF780D60FB2B8DC379B80 /* Pods-CZDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CZDemo"; path = Pods_CZDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89891ECDF8E76FB35DBB3348A074B8C /* Pods-CZDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CZDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E8E62B943F2A356D67ADD73985120B90 /* AlicloudUTDID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudUTDID.release.xcconfig; sourceTree = "<group>"; };
+		EB58456CAB96EC6A02CEC4408A14DDB6 /* AlicloudPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudPush.debug.xcconfig; sourceTree = "<group>"; };
+		FA8BC3E9C6925D2C4D12350A471A4011 /* Pods-CZDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CZDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E20938097A2198B644CDF6925DE0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6769C2F8E9F6D15D4E1E010C07C90092 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02599FB6F799EC10FA6B52BC18923CA4 /* AlicloudUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6F4ACCF87EFB20D0970E33C6450966B0 /* Frameworks */,
+				79F5E0B428E03C84CD81AF46B7C8E62F /* Support Files */,
+			);
+			name = AlicloudUtils;
+			path = AlicloudUtils;
+			sourceTree = "<group>";
+		};
+		0BD60ADA5DB49F4FF11F7E6D9BBFFCB3 /* AlicloudSender */ = {
+			isa = PBXGroup;
+			children = (
+				E3FC78CD24899B6DDF7FAE9F5A71392E /* Frameworks */,
+				B6101941189C23F522E62A140FBAA105 /* Support Files */,
+			);
+			name = AlicloudSender;
+			path = AlicloudSender;
+			sourceTree = "<group>";
+		};
+		1B3326CC798F783B3443E5D6D1530FB0 /* AlicloudPush */ = {
+			isa = PBXGroup;
+			children = (
+				30BBE2DEDE546B2704B2FE4B410BA063 /* Frameworks */,
+				97AE0E3A4201CEBCB7D95B955A77449F /* Support Files */,
+			);
+			name = AlicloudPush;
+			path = AlicloudPush;
+			sourceTree = "<group>";
+		};
+		22559182E8DEB00A46B2A2AA70B07AC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92548AE4C6A8A6595CDCF20FAA286B20 /* UTMini.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		286116E71C1ED4B04C42A2B20E7BD008 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBF704EA5C0956F1944ABA52A7DE76 /* AlicloudUTDID-xcframeworks.sh */,
+				2D042AFF0321FE3CAC8ACEB6DC7BB542 /* AlicloudUTDID.debug.xcconfig */,
+				E8E62B943F2A356D67ADD73985120B90 /* AlicloudUTDID.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlicloudUTDID";
+			sourceTree = "<group>";
+		};
+		2A16D6666B6C0B6B41643A2277E815C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BADABFA4B9AE13A099ECD8E7BBC642CA /* UTDID.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D29672626662EA3C29016A98BBC26AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1BC2E1947AF780D60FB2B8DC379B80 /* Pods-CZDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30BBE2DEDE546B2704B2FE4B410BA063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9C17DB9D81974B84B41949434DE3617 /* CloudPushSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55D7236DA6923523A385CB3C9134C22E /* Pods-CZDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A3F2DFE03A0DE74CDBFEED4F3E5573F8 /* Pods-CZDemo.modulemap */,
+				0783A5D73AF19EC3477F92F195F28B51 /* Pods-CZDemo-acknowledgements.markdown */,
+				FA8BC3E9C6925D2C4D12350A471A4011 /* Pods-CZDemo-acknowledgements.plist */,
+				0CDB27B8664F15D4AFD44417B3DB570E /* Pods-CZDemo-dummy.m */,
+				5AEA294C8A65822A67853B2724709DDC /* Pods-CZDemo-Info.plist */,
+				25AB93F3FFEB46085886F61249BBAF2C /* Pods-CZDemo-umbrella.h */,
+				65FCD252C05BB901A679664919C6F891 /* Pods-CZDemo.debug.xcconfig */,
+				D89891ECDF8E76FB35DBB3348A074B8C /* Pods-CZDemo.release.xcconfig */,
+			);
+			name = "Pods-CZDemo";
+			path = "Target Support Files/Pods-CZDemo";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B3B40FD6B98BF8CD8BC626E49DA60FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55D7236DA6923523A385CB3C9134C22E /* Pods-CZDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6B7D314287B07784B8E03C8C9EE3E014 /* AlicloudUTDID */ = {
+			isa = PBXGroup;
+			children = (
+				2A16D6666B6C0B6B41643A2277E815C8 /* Frameworks */,
+				286116E71C1ED4B04C42A2B20E7BD008 /* Support Files */,
+			);
+			name = AlicloudUTDID;
+			path = AlicloudUTDID;
+			sourceTree = "<group>";
+		};
+		6F4ACCF87EFB20D0970E33C6450966B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93DAC18E1E5A81C5022C2F7EDD990778 /* AlicloudUtils.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79F5E0B428E03C84CD81AF46B7C8E62F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B587206FFB46C03616C6B6D8EC27565 /* AlicloudUtils-xcframeworks.sh */,
+				226A815DB68F452028E1D870DE1846C8 /* AlicloudUtils.debug.xcconfig */,
+				0DF5868998DA40EFA052D27FFEC8B180 /* AlicloudUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlicloudUtils";
+			sourceTree = "<group>";
+		};
+		86EB08F2D838B59D6909C079E893CB68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				769C79C335CD15178B372772A4D2D96E /* EMASRest.debug.xcconfig */,
+				B0A7C3626D88471C40F41CC5000E0507 /* EMASRest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EMASRest";
+			sourceTree = "<group>";
+		};
+		97AE0E3A4201CEBCB7D95B955A77449F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB58456CAB96EC6A02CEC4408A14DDB6 /* AlicloudPush.debug.xcconfig */,
+				0840B31D301A7A7B3088F1B1D22B20B3 /* AlicloudPush.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlicloudPush";
+			sourceTree = "<group>";
+		};
+		B6101941189C23F522E62A140FBAA105 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3450391711DCD40BF3E43A847D4E07D8 /* AlicloudSender.debug.xcconfig */,
+				0D8398F8EF1EAC4172F74350D4B1369E /* AlicloudSender.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlicloudSender";
+			sourceTree = "<group>";
+		};
+		CBB9F27A7B6DE3223E895DFCDF926B4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B3326CC798F783B3443E5D6D1530FB0 /* AlicloudPush */,
+				0BD60ADA5DB49F4FF11F7E6D9BBFFCB3 /* AlicloudSender */,
+				D526191AD95B54BCB12A3BDDB5292754 /* AlicloudUT */,
+				6B7D314287B07784B8E03C8C9EE3E014 /* AlicloudUTDID */,
+				02599FB6F799EC10FA6B52BC18923CA4 /* AlicloudUtils */,
+				D21E93166C8D4E92EBDC77314E756627 /* EMASRest */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CBB9F27A7B6DE3223E895DFCDF926B4F /* Pods */,
+				2D29672626662EA3C29016A98BBC26AE /* Products */,
+				5B3B40FD6B98BF8CD8BC626E49DA60FF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D21E93166C8D4E92EBDC77314E756627 /* EMASRest */ = {
+			isa = PBXGroup;
+			children = (
+				DD8E1214535A62656A8C8A366DE57B55 /* Frameworks */,
+				86EB08F2D838B59D6909C079E893CB68 /* Support Files */,
+			);
+			name = EMASRest;
+			path = EMASRest;
+			sourceTree = "<group>";
+		};
+		D526191AD95B54BCB12A3BDDB5292754 /* AlicloudUT */ = {
+			isa = PBXGroup;
+			children = (
+				22559182E8DEB00A46B2A2AA70B07AC3 /* Frameworks */,
+				F7B6526991AA8C606FC73ECEE14B5786 /* Support Files */,
+			);
+			name = AlicloudUT;
+			path = AlicloudUT;
+			sourceTree = "<group>";
+		};
+		DD8E1214535A62656A8C8A366DE57B55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D9BC2E59D4EE69B5CF0CEDF6240BFA1 /* EMASRest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3FC78CD24899B6DDF7FAE9F5A71392E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA97364EAC0D260D7EBE9940510C219 /* AlicloudSender.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7B6526991AA8C606FC73ECEE14B5786 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96AB6FB7821A0535DD1BD935A8DAFE29 /* AlicloudUT.debug.xcconfig */,
+				964394EB1BD7D75C222D5057DEACFA83 /* AlicloudUT.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlicloudUT";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72A80CE6A9604F5277E5857B0A4236E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E994F28CF3029E265FDD7BBFE14F45 /* Pods-CZDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B09388274EB57991F4597C269942493D /* Pods-CZDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5EE931EBE6030EA7DE4DA1F8FA92AE /* Build configuration list for PBXNativeTarget "Pods-CZDemo" */;
+			buildPhases = (
+				72A80CE6A9604F5277E5857B0A4236E5 /* Headers */,
+				E3B01E139A6DEDD504F0DF4D5E67EA96 /* Sources */,
+				35E20938097A2198B644CDF6925DE0C2 /* Frameworks */,
+				44B368C477AA2BD4E1B40C581B6D309A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86BCC6C00150738B9646F5D40342FFF /* PBXTargetDependency */,
+				B58F6EB0AA48C62EF91D5419AA63F9F2 /* PBXTargetDependency */,
+				718847ACAB16DA52F6FC4A637873A268 /* PBXTargetDependency */,
+				7AF088E5395ED88CB91FAE2D13E62CF7 /* PBXTargetDependency */,
+				2C87DD28F79EEACF022B4FCB33B94D95 /* PBXTargetDependency */,
+				D8EAF1236CE512208E0E808E0FF276AC /* PBXTargetDependency */,
+			);
+			name = "Pods-CZDemo";
+			productName = Pods_CZDemo;
+			productReference = BC1BC2E1947AF780D60FB2B8DC379B80 /* Pods-CZDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2D29672626662EA3C29016A98BBC26AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C508EB37C9C701BDBDF2992EE93AA08C /* AlicloudPush */,
+				13791AD9C62C83C5D170A59C59B6B78E /* AlicloudSender */,
+				E9E6A901E448660EFF3445A118182C28 /* AlicloudUT */,
+				0883074DEB508458C174DE306B480284 /* AlicloudUTDID */,
+				DD99D8E362F7950F06AD0A963460E834 /* AlicloudUtils */,
+				E0A435AB383E08E63305BC6FEE435298 /* EMASRest */,
+				B09388274EB57991F4597C269942493D /* Pods-CZDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44B368C477AA2BD4E1B40C581B6D309A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC6BEFBDB711E9B96749CECAD54C93FA /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AlicloudUtils/AlicloudUtils-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AlicloudUtils/AlicloudUtils-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AlicloudUtils/AlicloudUtils-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE725BDC2D26E176307DCF3C5F9B9AB1 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AlicloudUTDID/AlicloudUTDID-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AlicloudUTDID/AlicloudUTDID-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AlicloudUTDID/AlicloudUTDID-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3B01E139A6DEDD504F0DF4D5E67EA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86688BEF4900289B1496AE0A040A3B09 /* Pods-CZDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F3D6592C72DD39BB01DC237F45E1A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUT;
+			target = E9E6A901E448660EFF3445A118182C28 /* AlicloudUT */;
+			targetProxy = 7819CF492DEFB62CA69683F9B44B5B11 /* PBXContainerItemProxy */;
+		};
+		27F03F0EA875C9F50AC53DE532127230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUTDID;
+			target = 0883074DEB508458C174DE306B480284 /* AlicloudUTDID */;
+			targetProxy = 92A52F5BF22BBA185741C098BFC19A0E /* PBXContainerItemProxy */;
+		};
+		2C87DD28F79EEACF022B4FCB33B94D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUtils;
+			target = DD99D8E362F7950F06AD0A963460E834 /* AlicloudUtils */;
+			targetProxy = 53B85B083279295AFB03D71D363EFFF0 /* PBXContainerItemProxy */;
+		};
+		41BF72ECB7652B7FE7B600F93FF61CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EMASRest;
+			target = E0A435AB383E08E63305BC6FEE435298 /* EMASRest */;
+			targetProxy = D089A5546C779C311D53120D5C3F8B8B /* PBXContainerItemProxy */;
+		};
+		57ED58DAEC962D1077D2DE73B596EE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUtils;
+			target = DD99D8E362F7950F06AD0A963460E834 /* AlicloudUtils */;
+			targetProxy = B788AA2FE2343D78F74B56BFB8156FD0 /* PBXContainerItemProxy */;
+		};
+		718847ACAB16DA52F6FC4A637873A268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUT;
+			target = E9E6A901E448660EFF3445A118182C28 /* AlicloudUT */;
+			targetProxy = 798592275ED256D866475D0985E4B016 /* PBXContainerItemProxy */;
+		};
+		7AE9F48B9A1D7FF4927E12DEF1DC7318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUTDID;
+			target = 0883074DEB508458C174DE306B480284 /* AlicloudUTDID */;
+			targetProxy = 069A8F82026A57A570AE7F2FF8D6D713 /* PBXContainerItemProxy */;
+		};
+		7AF088E5395ED88CB91FAE2D13E62CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUTDID;
+			target = 0883074DEB508458C174DE306B480284 /* AlicloudUTDID */;
+			targetProxy = 7CAEBF72A121523BD85D6B7DB2AD9F16 /* PBXContainerItemProxy */;
+		};
+		82D36EEACC5D1C716DBEF268D2C4A5C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudSender;
+			target = 13791AD9C62C83C5D170A59C59B6B78E /* AlicloudSender */;
+			targetProxy = BD0C1EB49065AA6DF390E33D492EF40A /* PBXContainerItemProxy */;
+		};
+		B58F6EB0AA48C62EF91D5419AA63F9F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudSender;
+			target = 13791AD9C62C83C5D170A59C59B6B78E /* AlicloudSender */;
+			targetProxy = 1C0D38A9560BFB18A68186527EEF9D1E /* PBXContainerItemProxy */;
+		};
+		D8EAF1236CE512208E0E808E0FF276AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EMASRest;
+			target = E0A435AB383E08E63305BC6FEE435298 /* EMASRest */;
+			targetProxy = 3F384B7B6BB1FFEF7BBD9AB2059556A6 /* PBXContainerItemProxy */;
+		};
+		E86BCC6C00150738B9646F5D40342FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudPush;
+			target = C508EB37C9C701BDBDF2992EE93AA08C /* AlicloudPush */;
+			targetProxy = CB0AA697A53ACF62466FA43043186355 /* PBXContainerItemProxy */;
+		};
+		FB4EA72AA303225135E5FEE3095AC249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUTDID;
+			target = 0883074DEB508458C174DE306B480284 /* AlicloudUTDID */;
+			targetProxy = 05F2DF19D96C3054F9E0CD4E3FDCD233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11DCACC8B5A420E89FBD58D6DC61DB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226A815DB68F452028E1D870DE1846C8 /* AlicloudUtils.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3122BF09F96D1FECA915CC174E3D7928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E62B943F2A356D67ADD73985120B90 /* AlicloudUTDID.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3130B83BAFF65DE0BE65A2289E8FDCA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D89891ECDF8E76FB35DBB3348A074B8C /* Pods-CZDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CZDemo/Pods-CZDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CZDemo/Pods-CZDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		481F5744A7CCEB0282B81BBC8EBCC3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 964394EB1BD7D75C222D5057DEACFA83 /* AlicloudUT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63127E4001CEA28CA01435DA03397B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D042AFF0321FE3CAC8ACEB6DC7BB542 /* AlicloudUTDID.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687866746FAA6223730D69BE5592CBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB58456CAB96EC6A02CEC4408A14DDB6 /* AlicloudPush.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72B4DA7A62F41A80480B8B1DC280B341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FCD252C05BB901A679664919C6F891 /* Pods-CZDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CZDemo/Pods-CZDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CZDemo/Pods-CZDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7336255336CC0AD0182F979259B78858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769C79C335CD15178B372772A4D2D96E /* EMASRest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8EB1F266A264B7E7561E7F0313006FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8398F8EF1EAC4172F74350D4B1369E /* AlicloudSender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3D66BC3171D14F70C78AF3039CD56A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3450391711DCD40BF3E43A847D4E07D8 /* AlicloudSender.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC9367018C690B4979A2F08440F50A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A7C3626D88471C40F41CC5000E0507 /* EMASRest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C682778E808CB54FEFDF9A6A937A8B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AB6FB7821A0535DD1BD935A8DAFE29 /* AlicloudUT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D686D3E96884A12924D3FFE1CA94B6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0840B31D301A7A7B3088F1B1D22B20B3 /* AlicloudPush.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF53296DD8948E5F03AFE6DDA6D260B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF5868998DA40EFA052D27FFEC8B180 /* AlicloudUtils.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2F5CC0D745EAABEDE125049FF9F691 /* Build configuration list for PBXAggregateTarget "AlicloudSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D66BC3171D14F70C78AF3039CD56A3 /* Debug */,
+				8EB1F266A264B7E7561E7F0313006FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D83E7ED1CB539D8EF682A786FFD1C35 /* Build configuration list for PBXAggregateTarget "EMASRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7336255336CC0AD0182F979259B78858 /* Debug */,
+				BC9367018C690B4979A2F08440F50A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C6D62F70EA6903E4C2E02077CF24FF /* Build configuration list for PBXAggregateTarget "AlicloudUTDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63127E4001CEA28CA01435DA03397B5C /* Debug */,
+				3122BF09F96D1FECA915CC174E3D7928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1C233E9527C0510979D5E8F9F78382 /* Build configuration list for PBXAggregateTarget "AlicloudUT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C682778E808CB54FEFDF9A6A937A8B3A /* Debug */,
+				481F5744A7CCEB0282B81BBC8EBCC3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED15CFBFAEFDC567122406E6D5F85FC /* Build configuration list for PBXAggregateTarget "AlicloudUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DCACC8B5A420E89FBD58D6DC61DB02 /* Debug */,
+				DF53296DD8948E5F03AFE6DDA6D260B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5EE931EBE6030EA7DE4DA1F8FA92AE /* Build configuration list for PBXNativeTarget "Pods-CZDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B4DA7A62F41A80480B8B1DC280B341 /* Debug */,
+				3130B83BAFF65DE0BE65A2289E8FDCA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31F788704E6D392B2AC03420BB932C8 /* Build configuration list for PBXAggregateTarget "AlicloudPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687866746FAA6223730D69BE5592CBA4 /* Debug */,
+				D686D3E96884A12924D3FFE1CA94B6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
