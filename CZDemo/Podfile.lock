@@ -1,38 +1,18 @@
 PODS:
-  - AlicloudPush (1.9.9.8):
-    - AlicloudSender
-    - AlicloudUT
-    - AlicloudUtils
-  - AlicloudSender (1.0.0.3):
-    - AlicloudUTDID
-    - EMASRest
-  - AlicloudUT (5.2.0.16):
-    - AlicloudUTDID
-  - AlicloudUTDID (1.6.1)
-  - AlicloudUtils (2.0.1):
-    - AlicloudUTDID
-  - EMASRest (11.1.1.2)
+  - SDWebImage (5.19.4):
+    - SDWebImage/Core (= 5.19.4)
+  - SDWebImage/Core (5.19.4)
 
 DEPENDENCIES:
-  - AlicloudPush (~> 1.9.9.5)
+  - SDWebImage
 
 SPEC REPOS:
-  https://github.com/aliyun/aliyun-specs.git:
-    - AlicloudPush
-    - AlicloudSender
-    - AlicloudUT
-    - AlicloudUTDID
-    - AlicloudUtils
-    - EMASRest
+  https://github.com/CocoaPods/Specs.git:
+    - SDWebImage
 
 SPEC CHECKSUMS:
-  AlicloudPush: 88529c9b796e4ece0601de0867b30359f55b61f7
-  AlicloudSender: 1f468b6bd962a099ffc19d45e3608b0fe98f259d
-  AlicloudUT: 6d1cf30d57d096b7e9bb4b069dd0ba6ad59a3338
-  AlicloudUTDID: 5d2f22d50e11eecd38f30bc7a48c71925ea90976
-  AlicloudUtils: ef4436f52b828b1182b002373758ecb88068e679
-  EMASRest: 8df6f87836767a9415ad5cc4af739bc9d215b475
+  SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
 
-PODFILE CHECKSUM: db666f48d8c2e936281dfdafac8dc3a4284d4aab
+PODFILE CHECKSUM: 5417fdb47ae4279c5716998e4ae0db33f2b03621
 
 COCOAPODS: 1.15.2
